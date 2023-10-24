@@ -1,0 +1,32 @@
+# Go specific ignores
+*.exe
+*.dll
+*.exe~
+*.dll~
+*.test
+*.out
+
+# Ignore Go binary directories
+/bin/
+/pkg/
+/vendor/
+
+# React specific ignores
+/node_modules/
+/build/
+
+# Miscellaneous ignores
+.DS_Store
+.env
+
+# Logs and debugging files
+*.log
+npm-debug.log*
+
+# Editor-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
